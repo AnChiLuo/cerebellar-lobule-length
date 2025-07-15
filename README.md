@@ -31,7 +31,7 @@ Although the DAPI channel provides sufficient nuclear signal across most lobule 
 - By intergateing this inforamtion, the refined ROI better conforms to the true lobular geometry.
  >In the example below, the red contours(original ROI) show inconsistent boundary placement, while the white contours(refined ROI) align better with the Purkinje layer.
 >
-<img width="1591" height="1408" alt="Git" src="https://github.com/user-attachments/assets/11fa4c7b-889e-4623-9c9c-24626b163428" />
+<img width="795" height="704" alt="Git" src="https://github.com/user-attachments/assets/11fa4c7b-889e-4623-9c9c-24626b163428" />
 
 
 
