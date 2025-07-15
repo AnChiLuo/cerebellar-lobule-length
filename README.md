@@ -33,6 +33,11 @@ Although the DAPI channel provides sufficient nuclear signal across most lobule 
 >
 <img width="˙795" height="704" alt="Git" src="https://github.com/user-attachments/assets/11fa4c7b-889e-4623-9c9c-24626b163428" />
 
+### ✨ Benefits
+-Enhance the boundary consistency across slices  
+-Reduces anatomical distortion in length measurement
+-Improves downstream reproducibility of ROI-based analysis 
+
 
 
 
