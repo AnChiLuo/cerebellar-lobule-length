@@ -12,12 +12,25 @@ Traditional cerebellar lobule segmentation is error-prone and labor-intensive du
 - 📦 **Optimized execution with smart batch mode**: disables GUI updates to speed up processing
   
 ## 🔁 Workflow (Summary)
-"The macro guides users through a semi-automated pipeline with optional checkpoints."
+The macro guides users through a semi-automated pipeline with optional checkpoints...
 1. Load Nucleus & Purkinge cell images
 2. Extract lobule mask from Nucleus image
 3. (Optional) Refine mask using Purkinje layer
 4. (Optional) Draw lines ROIs to seperate lobules
 5. Measure lobule length -> Export results
+
+## 🧪 Method Details: Purkinje-based Mask Refinement  
+This refinment step bridges anatomical knowledge with algorithmic correction to improve segmentation fidelity.
+### 💡 Retionale
+Although the DAPI channel provides sufficient nuclear signal across most lobule regions, it lacks specific anatomical cues at the lobule base. The Purkinje cell layer is cleaarly visible in its own staining channel,but is often missing or unclear in DAPI.
+
+### Why refinement is important  
+- The original DAPI-based ROIs many cut arbitrarily across purkinje cell—sometimes at the tip, the base, or across the middle.
+- These segmentation errors are not due to signal droput, but rather the lack of anatomical constraint during mask generation.
+- The labeled Purkinje cell layer froms a structural boundary that quides more anatomically accurate RPI definition.
+- By intergateing this inforamtion, the refined ROI better conforms to the true lobular geometry.
+ >In the example below, the red contours(original ROI) show inconsistent boundary placement, while the white contours(refined ROI) align better with the Purkinje layer.
+
 
 
 
