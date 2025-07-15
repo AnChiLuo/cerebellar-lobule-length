@@ -7,9 +7,9 @@ Traditional cerebellar lobule segmentation is error-prone and labor-intensive du
 -**A multi-step, fragmented workflow requiring extensive manual intervention and parameter tuning.**  
 
 **CerebellarLobuleLengthAnalyzer streamlines this entire process**, offering:  
--🧠**End-to-end semi-automation:** from Purkinje-based mask refinement → optional line-based lobule splitting → adaptive ROI filtering and labeling.  
--⚙️**Guided interaction only at key checkpoints:** User intervention is limited to refinement or manual line drawing as needed.  
--📦**Optimized execution with smart batch mode**: disables GUI updates to speed up processing
+- 🧠 **End-to-end semi-automation:** from Purkinje-based mask refinement → line-based lobule splitting → adaptive ROI filtering and labeling.  
+- ⚙️ **Guided interaction only at key checkpoints:** User intervention is limited to refinement or manual line drawing as needed.  
+- 📦 **Optimized execution with smart batch mode**: disables GUI updates to speed up processing
 
 
 
