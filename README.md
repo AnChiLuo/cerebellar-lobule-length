@@ -30,8 +30,9 @@ Although the DAPI channel provides sufficient nuclear signal across most lobule 
 - The labeled Purkinje cell layer froms a structural boundary that quides more anatomically accurate RPI definition.
 - By intergateing this inforamtion, the refined ROI better conforms to the true lobular geometry.
  >In the example below, the red contours(original ROI) show inconsistent boundary placement, while the white contours(refined ROI) align better with the Purkinje layer.
-<img width="795" height="573" alt="Git-1" src="https://github.com/user-attachments/assets/ba79ad2f-4ddd-428a-871f-31837a37e605" />
->
+<img width="795" height="573" alt="Git-1" src="https://github.com/user-attachments/assets/ba79ad2f-4ddd-428a-871f-31837a37e605" />   
+
+
 ### ✨ Benefits
 -Enhance the boundary consistency across slices  
 -Reduces anatomical distortion in length measurement  
