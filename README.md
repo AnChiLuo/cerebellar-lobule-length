@@ -10,6 +10,14 @@ Traditional cerebellar lobule segmentation is error-prone and labor-intensive du
 - 🧠 **End-to-end semi-automation:** from Purkinje-based mask refinement → line-based lobule splitting → adaptive ROI filtering.  
 - ⚙️ **Guided interaction only at key checkpoints:** User intervention is limited to refinement or manual line drawing as needed.  
 - 📦 **Optimized execution with smart batch mode**: disables GUI updates to speed up processing
+  
+## 🔁 Workflow (Summary)
+"The macro guides users through a semi-automated pipeline with optional checkpoints."
+1. Load Nucleus & Purkinge cell images
+2. Extract lobule mask from Nucleus image
+3. (Optional) Refine mask using Purkinje layer
+4. (Optional) Draw lines ROIs to seperate lobules
+5. Measure lobule length -> Export results
 
 
 
