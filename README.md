@@ -52,7 +52,8 @@ A dialog will appear for image selection:
    - Check the box to apply **mask refinement** (recommended)
 ### 3. Threshold  the images and create masks
 The macro processes both channels.  
-1. You will be asked to confirm the **threshold** used for both channel.
+1. You will be asked to confirm the **threshold** used for both channel sequentially.
 <img width="4006" height="1247" alt="Git_2" src="https://github.com/user-attachments/assets/84f1d862-b0b4-4bfc-8647-61c197f0914f" />
+2. 
 
 
