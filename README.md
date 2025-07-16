@@ -39,17 +39,20 @@ Although the DAPI channel provides sufficient nuclear signal across most lobule 
 -Improves downstream reproducibility of ROI-based analysis 
 
 ##  Step-by-step demo
-1. Open **Fiji** or **ImageJ**
-2. Go to `Plugins > Macros > Run...`
-3. Select `CerebellarLobuleLengthAnalyzer.ijm
-4. Run > Run or use Ctrl+R (⌘+R on macOS)
-5. A dialog will appear for image selection:
-  <img width="362" height="220" alt="Git_1" src="https://github.com/user-attachments/assets/ef7e7884-0eee-4788-9f1b-c7ba2993bdbb" />
+### 1. Launch the tool
+- Open **Fiji** or **ImageJ**
+- Go to `Plugins > Macros > Run...`
+- Select `CerebellarLobuleLengthAnalyzer.ijm
+- Run > Run or use Ctrl+R (⌘+R on macOS)
+### 2.Input image & options
+A dialog will appear for image selection:
+  <img width="181" height="110" alt="Git_1" src="https://github.com/user-attachments/assets/ef7e7884-0eee-4788-9f1b-c7ba2993bdbb" />  
    - Browse for the **DAPI image** (nuclear channel)
    - Browse for the **Purkinje cell image** (optional)
    - Check the box to apply **mask refinement** (recommended)
-
-
-
+### 3. Threshold  the images and create masks
+The macro processes both channels.  
+1. You will be asked to confirm the **threshold** used for both channel.
+<img width="4006" height="1247" alt="Git_2" src="https://github.com/user-attachments/assets/84f1d862-b0b4-4bfc-8647-61c197f0914f" />
 
 
