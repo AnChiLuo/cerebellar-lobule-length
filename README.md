@@ -63,7 +63,8 @@ The macro processes both channels.
 If the option **"Refine lobules with Purkinje cell"** was selected, the macro will use the FITC channel to improve the anatomical fidelity of the lobule mask.
 
 The macro pauses to let you check and adjust the thresholding for the Purkinje cell layer:
-<img width="450" height="340" alt="Git4" src="https://github.com/user-attachments/assets/eed0f83a-be74-4b85-9c82-750c313a1f53" />
+<img width="450" height="340" alt="Git4" src="https://github.com/user-attachments/assets/eed0f83a-be74-4b85-9c82-750c313a1f53" />  
+###  Step 5: Choose between refined and original masks
 
 
 
