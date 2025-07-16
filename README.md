@@ -56,7 +56,7 @@ The macro processes both channels.
    <img width="4006" height="1247" alt="Git_2" src="https://github.com/user-attachments/assets/84f1d862-b0b4-4bfc-8647-61c197f0914f" />
 2. Then a mask is extracted from the DAPI channel.
   Macro pauses here so you can **inspect and manually fix the mask** if needed.
-<img width="425" height="315" alt="Git3" src="https://github.com/user-attachments/assets/1774e59b-0c0e-433a-9607-ff5e02a6f40d" />  
+<img width="637" height="472" alt="Git3" src="https://github.com/user-attachments/assets/1774e59b-0c0e-433a-9607-ff5e02a6f40d" />  
 > 💡 Use pencil tool to repair gaps or remove artifacts before continuing.
 If you select
 ###  Step 4: (Optional) Refine lobule mask using Purkinje cell signals
