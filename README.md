@@ -96,8 +96,8 @@ You will also see the final result visualized in ImageJ:
 ## 📦 Demo Input Images
 
 Example cerebellar DAPI and FITC images (130 MB) are available on Zenodo:  
-🔗 https://doi.org/10.5281/zenodo.16039618 
-These were provided by Prof. Li-Chu Chiu's lab and preprocessed using FluoTileShadingCorrector.
+🔗 https://doi.org/10.5281/zenodo.16039618   
+These were provided by Prof. Lih-Chu Chiou's lab and preprocessed using FluoTileShadingCorrector.
 
 
 
