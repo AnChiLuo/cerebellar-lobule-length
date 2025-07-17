@@ -93,6 +93,12 @@ You will also see the final result visualized in ImageJ:
 - A measurement table will be opened with the calculated perimeter and length (Length = Perimeter / 2).  
   <img width="1028" height="529" alt="Git7" src="https://github.com/user-attachments/assets/627f7e69-6ba6-4cb6-926b-da6caf467bff" />
 
+## 📦 Demo Input Images
+
+Example cerebellar DAPI and FITC images (130 MB) are available on Zenodo:  
+🔗 https://doi.org/10.5281/zenodo.16039618 
+These were provided by Prof. Li-Chu Chiu's lab and preprocessed using FluoTileShadingCorrector.
+
 
 
 
