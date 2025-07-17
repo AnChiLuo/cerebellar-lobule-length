@@ -45,7 +45,7 @@ Although the DAPI channel provides sufficient nuclear signal across most lobule 
 - Select `CerebellarLobuleLengthAnalyzer.ijm
 - Run > Run or use Ctrl+R (⌘+R on macOS)
 ### 2.Input image & options
-A dialog will appear for image selection:
+A dialog will appear for image selection:  
   <img width="270" height="165" alt="Git_1" src="https://github.com/user-attachments/assets/ef7e7884-0eee-4788-9f1b-c7ba2993bdbb" />    
    - Browse for the **DAPI image** (nuclear channel)
    - Browse for the **Purkinje cell image** (optional)
