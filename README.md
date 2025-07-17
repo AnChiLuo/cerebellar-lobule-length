@@ -1,4 +1,4 @@
-# cerebellar-lobule-length
+# cerebellar-lobule-length  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16042543.svg)](https://doi.org/10.5281/zenodo.16042543)
 CerebellarLobuleLengthAnalyzer is an ImageJ macro developed to quantify the length of individual cerebellar lobules from DAPI-stained brain sections.  It segments the lobule structures based on nuclear density, supports, optionally refines the mask using Purkinje cell layer geometry (FITC channel), and manual separation of touching lobules via user-defined line ROIs.  Final outputs include a set of labeled lobule ROIs and a CSV summary table reporting lobule length based on ROI perimeter measurements.
 ## Problem & Motivation：
 Traditional cerebellar lobule segmentation is error-prone and labor-intensive due to:  
