@@ -86,8 +86,9 @@ Each ROI's ** perimeter is measured and divided by 2**, resulting in a lobule le
 The following results will be saved in the same folder as the raw images:  
 - `LobuleROIs.zip` — raw segmented ROIs  
 - `fixedLobuleROIs.zip` — filtered lobule ROIs (optional)  
-- `LobuleMeasurement.csv` — measured lobule lengths
+- `LobuleMeasurement.csv` — measured lobule lengths  
 You will also see the final result visualized in ImageJ:
+- The lobule ROIs will be overlaid on a merged image composed of the DAPI and Purkinje cell channels.  
 - The ROI Manager will show all measured lobules.  
 - A measurement table will be opened with the calculated perimeter and length (Length = Perimeter / 2).  
   <img width="1028" height="529" alt="Git7" src="https://github.com/user-attachments/assets/627f7e69-6ba6-4cb6-926b-da6caf467bff" />
