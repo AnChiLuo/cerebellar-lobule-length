@@ -64,7 +64,34 @@ If the option **"Refine lobules with Purkinje cell"** was selected, the macro wi
 
 The macro pauses to let you check and adjust the thresholding for the Purkinje cell layer:
 <img width="450" height="340" alt="Git4" src="https://github.com/user-attachments/assets/eed0f83a-be74-4b85-9c82-750c313a1f53" />  
-###  Step 5: Choose between refined and original masks
+###  Step 5: Choose between refined and original masks  
+If refinement is enabled, the macro will overlay:  
+- Red contour: original mask  
+- White contour: refined mask(Purkinje-based)
+Just choose one for downstream processing
+### Step 6: Manually draw spearation lines  
+Use the **Line Tool** to draw lines across lobules:  
+- Thes line define where lobules are separated
+- ROI Manager can be used to edit/remove lines
+  <img width="802" height="534" alt="Git6" src="https://github.com/user-attachments/assets/fc738246-8ab5-4f3e-9828-537c8a50e402" />  
+
+  >When done, click OK in the dialog box.
+### Step 7: Automatically splitting, filtering, and grouping ROI  
+Our tool will:  
+- Cut lobules accordingly
+- filter out small/unwanted regions
+- Label each region as `Lobule_#` or `SulcalFloor_#`
+### Step 8: Length measurement and export  
+Each ROI's ** perimeter is measured and divided by 2**, resulting in a lobule length.  
+The following results will be saved in the same folder as the raw images:  
+- `LobuleROIs.zip` — raw segmented ROIs  
+- `fixedLobuleROIs.zip` — filtered lobule ROIs (optional)  
+- `LobuleMeasurement.csv` — measured lobule lengths
+You will also see the final result visualized in ImageJ:
+- The ROI Manager will show all measured lobules.  
+- A measurement table will be opened with the calculated perimeter and length (Length = Perimeter / 2).  
+  <img width="1028" height="529" alt="Git7" src="https://github.com/user-attachments/assets/627f7e69-6ba6-4cb6-926b-da6caf467bff" />
+
 
 
 
